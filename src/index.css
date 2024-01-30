@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: "Quiny";
+  src: local("Quiny"),
+  url("./fonts/quiny/quiny.ttf") format("truetype");
+}
