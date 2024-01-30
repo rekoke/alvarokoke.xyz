@@ -16,6 +16,10 @@ $layout-mobile: 667px;
   background-size: cover;
   background-position: 67%;
   overflow: hidden;
+  pointer-events: none;
+  &:hover{
+    filter: invert(1);
+  }
   .title{
     font-size: 50px;
     text-transform: uppercase;
@@ -26,8 +30,10 @@ $layout-mobile: 667px;
     top: 45%;
     letter-spacing: -2px;
     width: 100%;
+    pointer-events: auto;
     &:hover{
       color: black;
+      cursor: help;
     }
     span:first-child{
       margin-right: -10px;
@@ -42,4 +48,15 @@ $layout-mobile: 667px;
   }
 }
 
-
+child-element {
+    pointer-events: auto
+}
+child-element:hover {
+    /* Styles for child element */
+}
+parent-element {
+    pointer-events: none
+}
+parent-element:hover {
+    /* Styles for parent element */
+}
