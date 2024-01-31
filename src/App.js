@@ -1,14 +1,9 @@
+import { RouterProvider } from "react-router-dom";
+import { router } from "./Routes";
 import "./App.scss";
 
 function App() {
-  return (
-    <div className="App font-face-quiny">
-      <div className="title">
-        <span>- al</span>
-        <span>varokoke -</span>
-      </div>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

@@ -22,3 +22,8 @@ code {
   src: local("Quiny"),
   url("./fonts/quiny/quiny.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Mulingar";
+  src: local("Mulingar"),
+  url("./fonts/mulingar/mulingar.ttf") format("truetype");
+}
