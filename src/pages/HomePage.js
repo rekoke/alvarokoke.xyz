@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -10,11 +9,7 @@ const HomePage = () => {
           <span>varokoke -</span>
         </div>
       </div>
-      <div className="socials_1 font-face-mulingar">
-        <Link className="link" to="/gallery">
-          Gallery
-        </Link>
-      </div>
+      <div className="socials_1 font-face-mulingar">under construction</div>
     </div>
   );
 };

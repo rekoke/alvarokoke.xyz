@@ -57,9 +57,7 @@ $layout-mobile: 667px;
   .socials_1, .socials_2{
     pointer-events: auto;
     user-select: none;
-    &:hover {
-      color: #ff7c34;
-    }
+
   }
   @media (min-width: $layout-mobile) {
     .title-container{
