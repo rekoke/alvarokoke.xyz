@@ -6,9 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
-  overflow: hidden !important;
   width: 100%;
-  position: fixed;
 }
 
 code {

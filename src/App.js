@@ -3,7 +3,11 @@ import { router } from "./Routes";
 import "./App.scss";
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <div className="App">
+      <RouterProvider router={router} />
+    </div>
+  );
 }
 
 export default App;

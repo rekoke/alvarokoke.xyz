@@ -1,0 +1,56 @@
+.Home{
+  overflow: hidden !important;
+  position: fixed;
+  .title-container{
+    background-image: url(../../images/bckg.png);
+    height: 100vh;
+    object-fit: contain;
+    max-height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    background-size: cover;
+    background-position: 67%;
+    overflow: hidden;
+    pointer-events: none;
+    &:hover{
+      filter: invert(1);
+    }
+    .title{
+      font-size: 50px;
+      text-transform: uppercase;
+      color: #ff7c34;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      top: 45%;
+      letter-spacing: -2px;
+      width: 100%;
+      pointer-events: auto;
+      user-select: none;
+      line-height: 38px;
+      &:hover{
+        color: black;
+        cursor: help;
+      }
+      span{
+        display: inline-block;
+        pointer-events: none;
+      }
+      span:first-child{
+        margin-right: -10px;
+      }
+    }
+  }
+  .home-link{
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%);
+    pointer-events: auto;
+    user-select: none;
+    &:hover {
+      color: #ff7c34;
+    }
+  }
+}

@@ -1,3 +1,5 @@
+@import './styles/Home.scss';
+
 $layout-mobile: 667px;
 
 .font-face-quiny {
@@ -10,56 +12,9 @@ $layout-mobile: 667px;
 
 .App {
   text-align: center;
-  .title-container{
-    background-image: url(../images/bckg.png);
-    height: 100vh;
-    object-fit: contain;
-    max-height: 100vh;
-    width: 100vw;
-    max-width: 100vw;
-    background-size: cover;
-    background-position: 67%;
-    overflow: hidden;
-    pointer-events: none;
-    &:hover{
-      filter: invert(1);
-    }
-  }
-  .title{
-    font-size: 50px;
-    text-transform: uppercase;
-    color: #ff7c34;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    top: 45%;
-    letter-spacing: -2px;
-    width: 100%;
-    pointer-events: auto;
-    user-select: none;
-    line-height: 38px;
-    &:hover{
-      color: black;
-      cursor: help;
-    }
-    span{
-      display: inline-block;
-      pointer-events: none;
-    }
-    span:first-child{
-      margin-right: -10px;
-    }
-  }
   .link{
     text-decoration: none;
     color: inherit;
-  }
-  .socials_1, .socials_2{
-    pointer-events: auto;
-    user-select: none;
-    &:hover {
-      color: #ff7c34;
-    }
   }
   @media (min-width: $layout-mobile) {
     .title-container{
@@ -68,16 +23,6 @@ $layout-mobile: 667px;
         font-size: 70px;
         width: auto;
       }
-    }
-    .socials_1, .socials_2{
-      position: absolute;
-      top: 49%;
-      left: 50%;
-      font-size: 20px;
-      transform: translate(-50%);
-    }
-    .socials_2{
-      top: 52%;
     }
   }
 }
