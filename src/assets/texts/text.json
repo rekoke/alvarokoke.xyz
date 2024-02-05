@@ -1,0 +1,19 @@
+{
+  "texts": [
+    {"img": "image_1", "text":"I know that the lack of comments makes some people sad, but it shouldn't. Suppose you are using JSON to keep configuration files, which you would like to annotate. Go ahead and insert all the comments you like. Then pipe it through JSMin[41] before handing it to your JSON parser."}
+  ,
+
+    {"img": "image_2", "text":"I know that the lack of comments makes some people sad, but it shouldn't. Suppose you are using JSON to keep configuration files, which you would like to annotate. Go ahead and insert all the comments you like. Then pipe it through JSMin[41] before handing it to your JSON parser."},
+  
+  
+    {"img": "image_3", "text":"I know that the lack of comments makes some people sad, but it shouldn't. Suppose you are using JSON to keep configuration files, which you would like to annotate. Go ahead and insert all the comments you like. Then pipe it through JSMin[41] before handing it to your JSON parser."}
+,
+    {"img": "image_4", "text":"I know that the lack of comments makes some people sad, but it shouldn't. Suppose you are using JSON to keep configuration files, which you would like to annotate. Go ahead and insert all the comments you like. Then pipe it through JSMin[41] before handing it to your JSON parser."}
+,
+    {"img": "image_5", "text":"I know that the lack of comments makes some people sad, but it shouldn't. Suppose you are using JSON to keep configuration files, which you would like to annotate. Go ahead and insert all the comments you like. Then pipe it through JSMin[41] before handing it to your JSON parser."}
+,
+    {"img": "image_6", "text":"I know that the lack of comments makes some people sad, but it shouldn't. Suppose you are using JSON to keep configuration files, which you would like to annotate. Go ahead and insert all the comments you like. Then pipe it through JSMin[41] before handing it to your JSON parser."}
+,
+    {"img": "image_7", "text":"I know that the lack of comments makes some people sad, but it shouldn't. Suppose you are using JSON to keep configuration files, which you would like to annotate. Go ahead and insert all the comments you like. Then pipe it through JSMin[41] before handing it to your JSON parser."}
+  ]
+}

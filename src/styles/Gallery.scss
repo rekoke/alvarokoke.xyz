@@ -1,0 +1,39 @@
+.Gallery{
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    li{
+      height: 70vh;
+      flex-grow: 1;
+      position: relative;
+      &:hover{
+        img{
+          filter: opacity(0.3);
+        }
+        span{
+          display: block;
+        }
+      }
+    }
+    img{
+      min-width: 100%;
+      max-height: 100%;
+      display: block;
+      object-fit: cover;
+      transition: all 0.3s;
+    }
+    span{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: none;
+      transition: all 0.3s;
+    }
+  }
+
+}
